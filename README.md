@@ -114,6 +114,9 @@ Below the main container are UI controls to turn on certain state and options.
 Every single combination of state is tested visually via the snapshots to cover
 as much as possible.
 
+### Replay
+This fork uses Replay to generate recordings of failed tests.
+
 ### Website
 
 `npm -w website run dev` in the root will launch the website at
