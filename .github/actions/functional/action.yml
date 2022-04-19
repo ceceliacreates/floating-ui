@@ -25,7 +25,7 @@ runs:
       shell: sh
     - run: npm run build
       shell: sh
-    - uses: replayio/action-playwright@v0.3.0
+    - uses: replayio/action-playwright@v0.3.1
       with:
         command: npm run test:functional --
         issue-number: ${{ inputs.issue-number }}
